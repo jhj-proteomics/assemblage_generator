@@ -34,5 +34,5 @@ for species, num_rows in num_rows_per_species.items():
 df = pd.DataFrame(data, columns=['id', 'species', 'bone', 'side', 'age (months)'])
 
 # Save the DataFrame to an Excel and a .csv file
-df.to_excel('C:/Users/skl448/Desktop/python/scripts/assemblage_generator/test_assemblage.xlsx', index=False)
-df.to_csv('C:/Users/skl448/Desktop/python/scripts/assemblage_generator/test_assemblage.csv', index=False)
+df.to_excel('test_assemblage.xlsx', index=False) #insert path to local dir
+df.to_csv('test_assemblage.csv', index=False) #insert path to local dir
