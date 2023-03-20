@@ -1,7 +1,7 @@
-# assemblage_generator
+The purpose of assemblage_generator is to simulate a zooarchaeological assemblage from Danish Viking Age sites. 
 
-assemblage_generator.py generates a simulated zooarchaeological assemblage. 
-The purpose of this code was to provide a random zooarchaeological assemblage for use with testing mni_analyser.py.
-assemblage_generator.py will generate a random, simulated zooarchaeological assemblage of ovicaprines, cattle and pigs. 
-The script simulates the proportions of ovicarpines, catte and pigs based on my own calculations from Danish archaeological sites dating to the Viking Age. 
+The need for this script was to provide a random zooarchaeological assemblage for use with testing mni_analyser.py (https://github.com/jhj-proteomics/mni_analyser).
 
+The script will generate up to 500 rows of individually labled IDs of ovicaprine, cattle and pig bones in proportions mimicking the average species distribution found on Danish sites dating to the Viking Age.
+
+You are free to change, update and edit the code as required.
